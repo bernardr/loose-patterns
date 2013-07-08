@@ -1,13 +1,11 @@
 /**
  * Patterns. 
- * 
  * Move the cursor over the image to draw with a software tool 
  * which responds to the speed of the mouse. 
  */
 
 void setup()
 {
-  //  size(640, 360);
   size(1250, 1200);
   background(0, 0, 0);
   smooth();
@@ -15,12 +13,6 @@ void setup()
 
 void draw() 
 {
-  // Call the variableEllipse() method and send it the
-  // parameters for the current mouse position
-  // and the previous mouse position
-//  if (mousePressed==true) {
-   variableEllipse(mouseX, mouseY, pmouseX, pmouseY);
-//  } 
 };
 
 
